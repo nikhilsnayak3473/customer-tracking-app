@@ -24,8 +24,6 @@ public class Customer {
 
 	@Column(name = "email")
 	private String email;
-	
-	
 
 	public Customer() {
 
@@ -67,7 +65,5 @@ public class Customer {
 	public String toString() {
 		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
-	
-	
 
 }
